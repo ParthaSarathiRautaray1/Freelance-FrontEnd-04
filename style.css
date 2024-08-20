@@ -1,0 +1,54 @@
+:root{
+    --salmon: #EF9D71;
+    --black: #000;
+    --white: #fff;
+    --cyan: #AEDEE0;
+    --dsalmon: #532521;
+    --dcyan: #1f2f32;
+    --orange: orange;
+}
+
+body{
+    transition: background-color ease-out .5s;
+
+}
+
+.vdodiv{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+*::selection{
+    background-color:var(--salmon);
+}
+
+body[data-theme="black"]{
+    background-color: var(--black);
+}
+body[data-theme="black"] .section{
+    color: var(--white);
+}
+
+
+body[data-theme="cyan"]{
+    background-color: var(--cyan);
+}
+
+body[data-theme="cyan"] .section{
+    color: var(--dcyan);
+}
+
+body[data-theme="salmon"]{
+    background-color: var(--salmon);
+}
+
+body[data-theme="salmon"] .section{
+    color: var(--dsalmon);
+}
+body[data-theme="white"]{
+    background-color: var(--white);
+}
+
+body[data-theme="white"].section{
+    color:var(--black)
+}
+

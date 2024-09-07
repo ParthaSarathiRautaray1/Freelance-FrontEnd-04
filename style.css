@@ -56,9 +56,13 @@ body[data-theme="white"].section{
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    justify-content:end;
+    justify-content:space-between;
     font-family: [poppins];
     margin-right: 10px;
     
+}
+.portfolioshow:hover{
+    color: purple;
+
 }
 

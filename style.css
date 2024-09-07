@@ -52,3 +52,13 @@ body[data-theme="white"].section{
     color:var(--black)
 }
 
+.naming{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    font-family: [poppins];
+    margin-right: 10px;
+    
+}
+
